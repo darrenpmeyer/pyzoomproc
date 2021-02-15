@@ -5,9 +5,14 @@
 <dict>
     <key>Label</key>
     <string>com.darrenpmeyer.pyzoomlist</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/dmeyer/code-personal/pyzoomproc</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/dmeyer/bin/pyzoomproc.py</string>
+        <string>venv/bin/python3</string>
+        <string>-m</string>
+        <string>pyzoomproc</string>
+        <string>--onair</string>
         <string>/Users/dmeyer/bin/onair</string>
     </array>
     <key>KeepAlive</key>
